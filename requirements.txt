@@ -1,0 +1,23 @@
+# =============================================================================
+# DEPENDENCIAS SIMPLIFICADAS DE LA API DEL CLIMA
+# =============================================================================
+# 
+# Este archivo contiene solo las dependencias esenciales para ejecutar
+# la API del clima de forma simple y eficiente.
+#
+# Para instalar las dependencias:
+#   pip install -r requirements.txt
+#
+# Autor: Ing. Daniel Issac Cañas 
+# Fecha: Enero 2026
+# =============================================================================
+
+# Framework web y servidor
+fastapi==0.104.1              # Framework web moderno y rápido
+uvicorn[standard]==0.24.0     # Servidor ASGI de alto rendimiento
+
+# Cliente HTTP para APIs externas
+httpx==0.25.2                 # Cliente HTTP asíncrono moderno
+
+# Variables de entorno
+python-dotenv==1.0.0          # Carga de variables de entorno
